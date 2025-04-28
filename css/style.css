@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --mainColor: #043873;
+    --buttonsColor: #4F9CF9;
+    --extraColor: #FFE492;
+}
+
+header {
+    background-color: var(--mainColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1480px;
+}
+
+.frame375 {
+    display: flex;
+    align-items: center;
+}
+
+.logo-block {
+}
+.logo {
+}
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttons {
+}
+.btn-login {
+}
+.btn-free-trial {
+}
