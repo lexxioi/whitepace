@@ -219,3 +219,37 @@ left: 31.19%;
 right: 24.27%;
 bottom: 50.7%;
 }
+
+/* customise */
+
+.customise {
+    background-color: var(--mainColor);
+    padding: 140px 0;
+}
+.heading {
+    max-width: 697px;
+}
+.title-customise {
+    color: #fff;
+    position: relative;
+}
+.text-customise {
+    color: #FFFFFF;
+
+}
+
+.illustration {
+    width: 686px;
+    height: 479px;
+    background-color: var(--imageContainer);
+}
+
+
+.title-customise img {
+    z-index: -1;
+    position: absolute;
+    left: 24.41%;
+    right: 16.79%;
+    top: 64px;
+    bottom: 34.09%;
+}
