@@ -63,6 +63,11 @@ header {
     font-family: 'DM Sans', sans-serif;
     font-size: 18px;
     line-height: 23px;
+    transition: 0.9s;
+}
+
+.menu li a:hover {
+    color: var(--extraColor);
 }
 
 .buttons {
@@ -333,6 +338,13 @@ header {
     text-align: center;
 }
 
+.title-pricing img {
+    position: absolute;
+    z-index: -1;
+    top: 58px;
+    left: 49%;
+}
+
 .text-pricing {
     margin: 0 auto;
     text-align: center;
@@ -473,7 +485,7 @@ header {
 .title-data img {
     position: absolute;
     top: 63px;
-    left: 38%;
+    left: 32%;
     z-index: -1;
 }
 
@@ -488,12 +500,21 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 1920px;
+    width: 100%;
 }
 
 .title-sponsors {
     text-align: center;
     margin-bottom: 100px;
 }
+
+.title-sponsors img {
+    position: absolute;
+    top: 58px;
+    left: 33%;
+}
+
 .images-sponsors {
     display: flex;
     justify-content: center;
@@ -540,6 +561,12 @@ header {
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
+}
+
+.title-testimonial img {
+    position: absolute;
+    top: 30px;
+    left: 63%;
 }
 
 .list-reviews {
